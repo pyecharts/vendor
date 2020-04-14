@@ -5,7 +5,7 @@ set -e
 # remove previous packaged folder
 rm -rf docs
 
-# package newsroom thene
+# package hugo-notepadium theme
 hugo -t hugo-notepadium
 
 # rename folder
