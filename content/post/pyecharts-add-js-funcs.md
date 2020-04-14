@@ -1,7 +1,7 @@
 ---
 title: "pyecharts 彩蛋函数 -- add_js_funcs"
 date: 2020-04-13T12:58:05+08:00
-author: chenjiandongx
+author: sunhailin-Leo
 ---
 
 ## 简介

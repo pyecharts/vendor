@@ -1,7 +1,7 @@
 ---
 title: "pyecharts 之神奇的轴索引"
 date: 2020-04-13T18:58:05+08:00
-author: chenjiandongx
+author: sunhailin-Leo
 ---
 
 ## 题外话
