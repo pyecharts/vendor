@@ -14,7 +14,7 @@ author: sunhailin-Leo
 * 下面通过一个简单的例子给大家展示一下
 * 话不多说直接上 Demo Code：
 
-```bash
+{{< highlight python >}}
 from pyecharts import options as opts
 from pyecharts.charts import Bar
 from pyecharts.commons.utils import JsCode
@@ -43,7 +43,7 @@ c.add_js_funcs(
     """
 )
 c.render()
-```
+{{< /highlight >}}
 
 ## 效果
 <figure>
@@ -56,9 +56,9 @@ c.render()
     * 1、`InitOpts` 中 `bg_Color` 的字典（核心是：`JsCode("img")`）
     * 2、代码中的 `add_js_funcs` 代码块（下面这段代码的作用就是实例化一个 `Image` 的对象赋值给 img 变量，然后给它的 `src` 属性赋值为图片的 URL 链接）
     * 3、最后回到只要把这个变量放到第一点所提到的 `JsCode` 中即可
-    ```javascript
-    var img = new Image(); img.src = 'https://s1.ax1x.com/2020/04/02/GJ1ggS.jpg';
-    ```
+    {{< highlight javascript >}}
+var img = new Image(); img.src = 'https://s1.ax1x.com/2020/04/02/GJ1ggS.jpg';
+    {{< /highlight >}}
 
 ## 分析（Part 1）
 * `pyecharts` 和 `JavaScript` 的代码不难理解，现在来看看究竟这段 `JavaScript` 代码是如何有效的。（下面为 `pyecharts` 生成的 `html` 文件中的部分代码）
