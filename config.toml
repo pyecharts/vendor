@@ -1,6 +1,6 @@
 baseURL = "https://articles.pyecharts.org"
 title = "Articles"
-theme = "hugo-notepadium"
+theme = "notepadium"
 copyright = "©2020 pyecharts-team"
 
 languageCode = "en"  # for the RSS generation

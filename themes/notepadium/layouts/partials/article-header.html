@@ -7,6 +7,7 @@
     {{- if $lastmod -}}
         {{- $lastmodFormat = $lastmod.Format $dateFormat -}}
     {{- end -}}
+    <i><br/>Author: {{ .Params.author }}</i>
     {{- if .Date -}}
         {{- $dateFormat := .Date.Format $dateFormat -}}
         <p class="article date">{{- $dateFormat -}}
