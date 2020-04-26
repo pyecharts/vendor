@@ -5,8 +5,8 @@ set -e
 # remove previous packaged folder
 rm -rf docs
 
-# package hugo-notepadium theme
-hugo -t hugo-notepadium
+# package notepadium theme
+hugo -t notepadium
 
 # rename folder
 mv public docs && cd docs
